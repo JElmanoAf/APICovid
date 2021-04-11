@@ -1,0 +1,22 @@
+{
+  "name": "apicovid",
+  "version": "1.0.0",
+  "description": "Api Covid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JElmanoAf/APICovid.git"
+  },
+  "keywords": [
+    "Covid"
+  ],
+  "author": "João Elmano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JElmanoAf/APICovid/issues"
+  },
+  "homepage": "https://github.com/JElmanoAf/APICovid#readme"
+}
