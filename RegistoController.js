@@ -30,11 +30,11 @@ var arrayIntensivos = [];
         media = totalCasos/covid.length;
         
         res.json({
-            novosCasos: arrayCasos,
-            internadosUCI: arrayIntensivos,
+            NovosCasos: arrayCasos,
+            InternadosUCI: arrayIntensivos,
             Maximo: darrayData[IndiceMax],
             Minimo: darrayData[IndiceMin],
-            totalCasos: totalCasos,
+            TotalCasos: totalCasos,
             Media: media,
         });
     });
