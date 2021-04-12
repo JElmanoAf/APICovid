@@ -1,5 +1,5 @@
 // initialize express router
-let router = require ('express'). Router ();
+let router = require('express').Router ();
 
 // set default API response
 router.get ('/', function (req, res) {
@@ -10,14 +10,14 @@ router.get ('/', function (req, res) {
 });
 
 // Import Covid Controller
-var RegistoController = require ('./ RegistoController');
+var RegistoController = require ('./RegistoController');
 
 // Covid routes
-router.route ('/ covid')
+router.route ('/covid')
     .get (RegistoController.index)
     .post (RegistoController.add);
 
-router.route ('/ covid /: covid_id')
+router.route ('/covid/:covid_id')
     .get (RegistoController.view)
     .patch (RegistoController.update)
     .put (RegistoController.update)
