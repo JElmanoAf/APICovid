@@ -2,11 +2,11 @@ var mongoose = require ('mongoose');
 
 // schema
 var covidSchema = mongoose.Schema ({
-    date: {
+    data: {
         type: String,
         required: true
     },
-    confirmed_new: {
+    confirmados_novos: {
         type: Number,
         required: true
     },
@@ -20,5 +20,5 @@ var covidSchema = mongoose.Schema ({
 var Covid = module.exports = mongoose.model ('covid',covidSchema);
 
 module.exports.get = function (callback, limit) {
-   Covid.find (callback) .limit (limit);
+   Covid.find (callback).limit (limit);
 }

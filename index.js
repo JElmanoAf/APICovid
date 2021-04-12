@@ -38,7 +38,7 @@ var port = process.env.PORT || 6666;
 
 
 // Use API routes in the app
-app.use ('/ api', apiRoutes)
+app.use ('/api', apiRoutes)
 
 // Start Server
 app.listen (port, function () {
